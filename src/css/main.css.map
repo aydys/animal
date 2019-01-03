@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.scss"],"names":[],"mappings":"AAAA;EACI,6BAA4B,EAC/B;;AAED;EACI,wBAAuB,EAC1B","file":"main.css","sourcesContent":["body {\r\n    background-color: aquamarine;\r\n}\r\n\r\ndiv {\r\n    background-color: black;\r\n}"]}

@@ -1,0 +1,29 @@
+{
+  "name": "animal",
+  "version": "1.0.0",
+  "description": "My first landing page for portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aydys/animal.git"
+  },
+  "author": "Aidys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aydys/animal/issues"
+  },
+  "homepage": "https://github.com/aydys/animal#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.4.3",
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4"
+  },
+  "dependencies": {}
+}
