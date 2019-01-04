@@ -22,7 +22,9 @@ gulp.task('serve', function() {
 gulp.task('sass', function() {
     return gulp.src("src/scss/*.scss")
         .pipe(sourcemaps.init())
-        .pipe(sass())
+        .pipe(sass({
+            includePaths: require('node-normalize-scss').includePaths
+        }))
         .pipe(postcss([ autoprefixer() ]))
         .pipe(sourcemaps.write('.'))
         .on("error", notify.onError())
