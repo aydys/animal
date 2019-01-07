@@ -1,1 +1,162 @@
 @import 'normalize';
+
+@font-face {
+    font-family: 'Caf Franoise';
+    src: url('../font/Caf Franoise.otf') format('opentype');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+$basicColor: #f7bd00;
+$basicFont: "PT Serif", sans-serif;
+
+// Customize
+
+body {    
+    background-color: #fff;
+    width: 100%;
+}
+
+// Start header top
+
+.header {
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    
+    height: 100vh;    
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 920px;
+    margin: 0 auto;   
+    padding: 20px 20px 126px;  
+}
+
+.header__logo {
+    position: relative;
+}
+
+.logo__brush{
+    position: absolute;
+    top: 0px;    
+}
+
+.logo__text {
+    font-family: 'Caf Franoise', sans-serif;
+    font-size: 22px;
+    color: $basicColor;
+
+    width: 102px;
+
+    position: absolute;
+    top: -3px;
+    left: 16px;
+}
+
+// End header top
+
+.header__caption {
+    font-family: $basicFont;
+    font-style: italic;
+    font-size: 20px;
+    color: $basicColor;
+
+    text-align: center;
+}
+
+.header__title {
+    font-family: 'Caf Franoise', sans-serif;
+    font-style: normal;
+    font-size: 60px;
+    font-weight: 400;
+    color: $basicColor;
+
+    text-align: center;
+    margin: 18px 0;    
+}
+
+.header__line {
+    text-decoration: line-through;
+}
+
+// Header button
+
+.header__button {
+    display: flex;
+    width: 162px;
+    height: 26px;
+
+    border: 2px solid $basicColor;
+    border-radius: 5px;
+
+    margin: 0 auto;
+    margin-bottom: 104px;
+}
+
+.button__text {
+    font-family: $basicFont;
+    font-style: normal;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: $basicColor;
+
+    padding: 7px 11px 4px;
+
+    text-align: center;
+    white-space: nowrap;
+
+    border-right: 2px solid $basicColor;
+}
+
+.button__icon {
+    color: $basicColor;
+
+    padding: 6px 9px;    
+}
+
+// Header pagination
+
+.header__pagination {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: $basicColor;
+
+    margin-bottom: 47px;
+}
+
+.pagination__prev {
+    display: flex;
+}
+
+.prev__svg-left {
+    margin-top: 1px;
+}
+
+.pagination__counter {
+    margin: 0 23px 0 20px;
+
+    color: #8b6c00;    
+        &--active {
+            color: $basicColor;
+        }
+}
+
+.pagination__next {
+    display: flex;
+}
+
+.next__svg-right {
+    margin-top: 1px;
+}
+
+// End Header pagination
+
+.header__btn-down {
+    text-align: center;
+    color: $basicColor;
+}
