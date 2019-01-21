@@ -305,7 +305,7 @@ template {
   font-style: normal; }
 
 body {
-  background-color: #fff;
+  background-color: #000;
   width: 100%; }
 
 .header {
@@ -359,24 +359,23 @@ body {
   display: flex;
   width: 162px;
   height: 26px;
+  font-family: "PT Serif", sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #f7bd00;
   border: 2px solid #f7bd00;
   border-radius: 5px;
   margin: 0 auto;
   margin-bottom: 104px; }
 
 .button__text {
-  font-family: "PT Serif", sans-serif;
-  font-style: normal;
-  font-size: 12px;
-  text-transform: uppercase;
-  color: #f7bd00;
   padding: 7px 11px 4px;
   text-align: center;
   white-space: nowrap;
   border-right: 2px solid #f7bd00; }
 
 .button__icon {
-  color: #f7bd00;
   padding: 6px 9px; }
 
 .header__pagination {

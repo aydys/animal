@@ -14,7 +14,7 @@ $basicFont: "PT Serif", sans-serif;
 // Customize
 
 body {    
-    background-color: #fff;
+    background-color: #000;
     width: 100%;
 }
 
@@ -89,6 +89,12 @@ body {
     width: 162px;
     height: 26px;
 
+    font-family: $basicFont;
+    font-style: normal;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: $basicColor;
+
     border: 2px solid $basicColor;
     border-radius: 5px;
 
@@ -96,13 +102,7 @@ body {
     margin-bottom: 104px;
 }
 
-.button__text {
-    font-family: $basicFont;
-    font-style: normal;
-    font-size: 12px;
-    text-transform: uppercase;
-    color: $basicColor;
-
+.button__text { 
     padding: 7px 11px 4px;
 
     text-align: center;
@@ -112,8 +112,6 @@ body {
 }
 
 .button__icon {
-    color: $basicColor;
-
     padding: 6px 9px;    
 }
 
