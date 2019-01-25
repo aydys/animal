@@ -90,37 +90,45 @@
             <h2 class="event__form-title">Event Registion</h2>
             <form action="" class="event__form-registion">
                 <div class="event__form-item">
-                    <label for="" class="event__form-caption"></label>
-                    <input type="text" class="event__form-cell">
+                    <label for="username" class="event__form-caption">Your Full Name</label>
+                    <input type="text" class="event__form-cell" id="username">
                 </div>
                 <div class="event__form-item">
-                    <label for="" class="event__form-caption"></label>
-                    <input type="text" class="event__form-cell">
+                    <label for="email" class="event__form-caption">Your Email Address</label>
+                    <input type="text" class="event__form-cell" id="email">
                 </div>
                 <div class="event__form-item">
-                    <label for="" class="event__form-caption"></label>
-                    <input type="text" class="event__form-cell">
+                    <label for="country" class="event__form-caption">Your Country</label>
+                    <select name="country" id="country">
+                        <option disabled>Select Your Country</option>
+                        <option value="co1">USA</option>
+                        <option value="co2">Canada</option>
+                    </select>
                 </div>
                 <div class="event__form-item">
-                    <label for="" class="event__form-caption"></label>
-                    <input type="text" class="event__form-cell">
+                    <label for="city" class="event__form-caption">Your City</label>
+                    <select name="city" id="city">
+                        <option disabled>Select Your City</option>
+                        <option value="ci1">New York</option>
+                        <option value="ci2">Montreal</option>
+                    </select>
                 </div>
                 <div class="event__form-item">
-                    <label for="" class="event__form-caption"></label>
-                    <input type="text" class="event__form-cell">
+                    <label for="address" class="event__form-caption">Street Address</label>
+                    <input type="text" class="event__form-cell" id="address">
                 </div>
                 <div class="event__form-item">
-                    <label for="" class="event__form-caption"></label>
-                    <input type="text" class="event__form-cell">
+                    <label for="office" class="event__form-caption">Office or Home Address</label>
+                    <input type="text" class="event__form-cell" id="office">
                 </div>
-                <button class="event__form-submit btn">
+                <div class="event__form-submit btn">
                     <div class="btn__text">submit</div>
                     <div class="btn__icon">
                             <svg aria-hidden="true" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-w-8" role="img" xmlns="http://www.w3.org/2000/svg" width="9px" height="14px" viewBox="0 0 256 512">
                                 <path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path>
                             </svg>
                     </div>
-                </button>
+                </div>
             </form>
         </div>
     </section>
