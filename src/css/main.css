@@ -310,184 +310,245 @@ body {
 
 .header {
   background-repeat: no-repeat;
-  background-size: 100%;
-  max-width: 1400px;
-  height: 100vh;
+  background-size: 1920px;
+  background-color: #101010;
+  max-width: 1920px;
+  height: 1080px;
   margin: 0 auto; }
 
 .header__wrapper {
   display: flex;
   justify-content: space-between;
-  width: 920px;
+  width: 1840px;
   margin: 0 auto;
-  padding: 20px 20px 126px; }
+  padding: 40px 40px 277px; }
 
 .header__logo {
   position: relative; }
 
 .logo__brush {
   position: absolute;
-  top: 0px; }
+  top: 18px; }
 
 .logo__text {
   font-family: 'Caf Franoise', sans-serif;
-  font-size: 22px;
+  font-size: 44px;
   color: #f7bd00;
-  width: 102px;
+  width: 204px;
   position: absolute;
-  top: -3px;
-  left: 16px; }
+  top: 14px;
+  left: 34px; }
+
+.header__menu {
+  margin-right: 5px; }
 
 .header__caption {
   font-family: "PT Serif", sans-serif;
   font-style: italic;
-  font-size: 20px;
+  font-size: 40px;
   color: #f7bd00;
   text-align: center; }
 
 .header__title {
   font-family: 'Caf Franoise', sans-serif;
   font-style: normal;
-  font-size: 60px;
+  font-size: 119px;
   font-weight: 400;
   color: #f7bd00;
+  letter-spacing: 4px;
   text-align: center;
-  margin: 18px 0; }
+  margin: 20px 0; }
 
 .header__line {
   text-decoration: line-through; }
 
 .header__button {
   display: flex;
-  width: 162px;
-  height: 26px;
+  width: 328px;
+  height: 51px;
   font-family: "PT Serif", sans-serif;
   font-style: normal;
-  font-size: 12px;
+  font-size: 25px;
   text-transform: uppercase;
   color: #f7bd00;
-  border: 2px solid #f7bd00;
-  border-radius: 5px;
+  border: 3px solid #f7bd00;
+  border-radius: 10px;
   margin: 0 auto;
-  margin-bottom: 104px; }
+  margin-bottom: 200px; }
 
 .button__text {
-  padding: 7px 11px 4px;
+  padding: 10px 22px 10px;
   text-align: center;
   white-space: nowrap;
-  border-right: 2px solid #f7bd00; }
+  border-right: 3px solid #f7bd00; }
 
 .button__icon {
-  padding: 6px 9px; }
+  padding: 10px 10px; }
 
 .header__pagination {
   display: flex;
   justify-content: center;
+  align-items: center;
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 18px;
+  font-family: "PT Serif", sans-serif;
   color: #f7bd00;
-  margin-bottom: 47px; }
+  margin-bottom: 80px; }
 
 .pagination__prev {
-  display: flex; }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70px;
+  height: 14px; }
 
 .prev__svg-left {
-  margin-top: 1px; }
+  margin-top: 4px; }
 
 .pagination__counter {
-  margin: 0 23px 0 20px;
+  margin: 0 45px 0 40px;
+  letter-spacing: 4px;
   color: #8b6c00; }
   .pagination__counter--active {
     color: #f7bd00; }
 
 .pagination__next {
-  display: flex; }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70px;
+  height: 14px; }
 
 .next__svg-right {
-  margin-top: 1px; }
+  margin-top: 4px; }
 
 .header__btn-down {
   text-align: center;
-  color: #f7bd00; }
+  color: #f7bd00;
+  padding-bottom: 40px; }
 
 .gradient {
-  height: 20px;
-  background-image: linear-gradient(#0E0E0E, #000000);
-  max-width: 1400px;
+  height: 70px;
+  background-image: linear-gradient(#0E0E0E, #101010);
+  max-width: 1920px;
   margin: 0 auto; }
 
 .hero {
   position: relative;
-  top: -20px;
-  max-width: 1400px;
-  margin: 0 auto; }
+  top: 0;
+  max-width: 1920px;
+  height: 968px;
+  margin: 0 auto;
+  background-color: #101010; }
 
 .hero__image {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 100%; }
 
 .image__item {
-  height: 492px; }
+  max-height: 977px; }
 
 .hero__inner {
   position: absolute;
-  top: 0;
+  top: -56px;
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
-  width: 712px;
-  height: 512px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  width: 1423px;
+  height: 1024px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
   background-color: white;
   background-image: url("../img/martin.webp");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat; }
 
 .hero__content {
   position: absolute;
-  top: 0;
+  top: -7px;
   left: 50%;
   -webkit-transform: translate(0, 50%);
           transform: translate(0, 50%);
-  width: 245px;
-  height: 172px;
-  padding: 45px 20px;
+  width: 490px;
+  height: 360px;
+  padding: 80px 40px;
   background-color: #f7bd00; }
 
 .hero__title {
   padding: 0;
   margin: 0;
-  font-size: 30px;
+  font-size: 60px;
   font-family: "PT Serif", sans-serif;
   font-style: italic; }
 
 .hero__subtitle {
   padding: 0;
-  margin: 16px 0;
-  font-size: 13px;
+  margin: 30px 0 25px;
+  font-size: 25px;
   font-family: 'Lato', sans-serif;
-  font-weight: bold; }
+  font-weight: bold;
+  letter-spacing: 0; }
 
 .hero__text {
   font-family: "PT Serif", sans-serif;
-  font-size: 9px;
-  line-height: 20px; }
+  font-size: 19px;
+  line-height: 40px;
+  margin-bottom: 32px; }
 
 .btn {
   display: inline-flex;
-  border: 1px solid #000;
-  border-radius: 6px;
+  border: 3px solid #000;
+  border-radius: 10px;
   background-color: rgba(247, 223, 90, 0.5); }
 
 .btn__text {
-  font-size: 12px;
+  font-size: 25px;
   font-family: "PT Serif", sans-serif;
   text-transform: uppercase;
-  padding: 6px 10px 0;
-  border-right: 1px solid #000; }
+  padding: 8px 21px;
+  border-right: 3px solid #000; }
 
 .btn__icon {
-  padding: 6px 10px 0; }
+  margin: 8px 14px; }
+
+.event {
+  position: relative;
+  max-width: 1920px;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #202020; }
+
+.img {
+  display: flex;
+  justify-content: space-between;
+  height: 100%; }
+
+.img__item-left {
+  align-self: flex-end; }
+
+.event__main {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 1184px;
+  top: 116px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  color: #fff; }
+
+.heading {
+  font-family: "PT Serif", sans-serif;
+  font-size: 36px; }
+
+.event__content {
+  width: 742px;
+  font-size: 18px; }
+
+.event__text {
+  padding-top: 0;
+  line-height: 26px; }
 
 /*# sourceMappingURL=main.css.map */
