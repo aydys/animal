@@ -84,37 +84,37 @@
     </section>
     <section class="event">
         <div class="event__image img">
-            <img src="img/monkey.png" width="210px" height="375px" alt="monkey" class="img__item-right">
-            <img src="img/bird.png" width="250px" height="375px" alt="bird" class="img__item-left">
+            <img src="img/monkey.png" width="415px" height="720px" alt="monkey" class="img__item-right">
+            <img src="img/bird.png" width="500px" height="750px" alt="bird" class="img__item-left img__item-left--opacity">
         </div>
         <main class="event__main">
             <div class="event__title heading">Event Shedule</div>
             <div class="event__content">
                 <p class="event__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus felis sit amet ipsum volutpat vestibulum. Nunc eleifend convallis eros, ut tristique justo sagittis quis. Suspendisse fermentum imperdiet sapien in sodales. Vestibulum et mi commodo, tincidunt tortor vitae, porttitor augue. Fusce et fermentum ipsum.</p>
                 <p class="event__text">Eget lobortis purus. Etiam ultricies, tortor id porta lacinia, neque nulla semper vullamcorper feugiat convallis. Donec sagittis vulputate ligula. Ut quis neque felis. Phasellus venenatis rutrum dui eget tristique.</p>
-                <div class="event__data">21st June 2019<span class="event__time"> 10:00am to 3:00pm</span></div>
+                <div class="event__data">21st June 2019 <span class="event__time">10:00am to 3:00pm</span></div>
                 <ol class="event__list">
-                    <li class="event__item">Eget lobortis purus. Etiam ultricies, tortor id porta lacinia, neque nulla Ut quis 
-                            felis. Phasellus venenatis rutrum dui eget tristique.</li>
-                    <li class="event__item">Lobortis purus. Etiam ultricies, tortor id porta lacinia, neque nulla.</li>
-                    <li class="event__item">Purus. Etiam ultricies, tortor id porta lacinia, neque nulla Ut</li>
+                    <li class="event__item"><span class="event__item-inner">Eget lobortis purus. Etiam ultricies, tortor id porta lacinia, neque nulla Ut quis 
+                            felis. Phasellus venenatis rutrum dui eget tristique.</span></li>
+                    <li class="event__item"><span class="event__item-inner">Lobortis purus. Etiam ultricies, tortor id porta lacinia, neque nulla.</span></li>
+                    <li class="event__item"><span class="event__item-inner">Purus. Etiam ultricies, tortor id porta lacinia, neque nulla Ut</span></li>
                 </ol>
             </div>
         </main>
         <div class="event__form-wrap">
             <h2 class="event__form-title">Event Registion</h2>
-            <form action="" class="event__form-registion">
+            <form action="" class="event__form-list">
                 <div class="event__form-item">
                     <label for="username" class="event__form-caption">Your Full Name</label>
-                    <input type="text" class="event__form-cell" id="username">
+                    <input type="text" class="event__form-cell" id="username" placeholder="Type Your Name">
                 </div>
                 <div class="event__form-item">
                     <label for="email" class="event__form-caption">Your Email Address</label>
-                    <input type="text" class="event__form-cell" id="email">
+                    <input type="text" class="event__form-cell" id="email" placeholder="Type Your Email">
                 </div>
                 <div class="event__form-item">
                     <label for="country" class="event__form-caption">Your Country</label>
-                    <select name="country" id="country">
+                    <select name="country" id="country" class="event__form-cell event__form-select">
                         <option disabled>Select Your Country</option>
                         <option value="co1">USA</option>
                         <option value="co2">Canada</option>
@@ -122,7 +122,7 @@
                 </div>
                 <div class="event__form-item">
                     <label for="city" class="event__form-caption">Your City</label>
-                    <select name="city" id="city">
+                    <select name="city" id="city" class="event__form-cell event__form-select">
                         <option disabled>Select Your City</option>
                         <option value="ci1">New York</option>
                         <option value="ci2">Montreal</option>
@@ -130,12 +130,14 @@
                 </div>
                 <div class="event__form-item">
                     <label for="address" class="event__form-caption">Street Address</label>
-                    <input type="text" class="event__form-cell" id="address">
+                    <input type="text" class="event__form-cell" id="address" placeholder="Type Your Name">
                 </div>
                 <div class="event__form-item">
                     <label for="office" class="event__form-caption">Office or Home Address</label>
-                    <input type="text" class="event__form-cell" id="office">
-                </div>
+                    <input type="text" class="event__form-cell" id="office" placeholder="Type Your Email">
+                </div>                
+            </form>
+            <div class="event__btn-wrap">
                 <div class="event__form-submit btn">
                     <div class="btn__text">submit</div>
                     <div class="btn__icon">
@@ -144,7 +146,7 @@
                             </svg>
                     </div>
                 </div>
-            </form>
+            </div>            
         </div>
     </section>
 </body>
